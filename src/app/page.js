@@ -1,20 +1,9 @@
-'use client';
 import React from 'react';
-import styled from 'styled-components';
-
-const MainWrapper = styled.main`
-  width: 100%;
-  max-width: 800px;
-  padding: 16px 24px;
-  margin: 0px auto;
-  border: 1px solid hsl(0deg 0% 50% / 0.3);
-  border-radius: 2px;
-  background: white;
-`;
+import Article from './article';
 
 function Home() {
   return (
-    <MainWrapper>
+    <Article>
       <h1>
         Exploring the trade-offs with half-gauge
         vs. full-gauge wire in laminated
@@ -162,7 +151,7 @@ function Home() {
         appropriate wire gauge for laminating
         woodgrain.
       </p>
-    </MainWrapper>
+    </Article>
   );
 }
 
